@@ -1,20 +1,69 @@
 
-.section1{
-  font-family: 'Roboto', ;
+.appHolder{
+  font-family: 'Roboto' !important;
 }
 
-.transparent{
-  background-color: grey;
-  opacity: 0.9;
-  color: blue;
+.white{
+  color: white;
+}
+
+.whiteBG{
+  background-color: white !important;
+}
+
+.black{
+  color: black !important;
+}
+
+.bold{
+  font-weight: bold
 }
 
 .navBarModifications{
-  color: white !important;
+  font-size: 250% !important;
+}
+
+.navBarModifications:hover{
+  background-color: rgba(99, 1, 58, 0.4) !important;
+}
+
+a.white:hover{
+  color: white;
+}
+.painterBG{
+  background-image: url('./assets/painter.jpg');
+  background-size: cover;
+  background-color: rgba(0, 1, 58, 0.5);
+}
+
+.programerBG{
+  background-image: url('./assets/programmer.jpg');
+  background-size: cover;
+}
+
+.painterText{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+p#programer{
+  font-size: 300% !important;
+}
+p#paintingLover{
+  font-size: 300% !important;
+  color: black;
+}
+p#paintingSub{
+  font-size: 200% !important;
+}
+p#programerSub{
   font-size: 200% !important;
 }
 
-.is-text:hover{
-  color: white !important;
-  background-color: rgba(99, 1, 58, 0.4) !important;
+.titleWoAmI{
+  color: black !important;
+}
+.image1{
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center !important;
 }
