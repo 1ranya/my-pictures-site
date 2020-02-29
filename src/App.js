@@ -4,6 +4,7 @@ import WhoAmI from './Components/WhoAmI';
 import Collection from './Components/Collection';
 import ContactMe from './Components/ContactMe';
 import blash from './assets/brashes.jpg'
+import CollectionDisplay from './Components/CollectionDisplay'
 function App() {
   return (
     <div class="container appHolder">
@@ -30,6 +31,9 @@ function App() {
       <br/>
       <section id="collection">
         <Collection/>
+      </section>
+      <section>
+        <CollectionDisplay/>
       </section>
       <section id="contact">
         <ContactMe/>

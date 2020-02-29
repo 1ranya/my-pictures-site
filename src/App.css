@@ -65,5 +65,47 @@ p#programerSub{
 .image1{
   margin-left: 15%;
   margin-right: 15%;
+  margin-bottom: 2%;
   text-align: center !important;
+}
+.imageDisplay{
+
+}
+.favoriteCard{
+  background-color: rgba(3, 3, 3, 0.9) !important;
+}
+.level-item{
+  color: aliceblue !important;
+}
+.centered{
+  text-align: center !important;
+}
+.opacityPortrait{
+  opacity: 0.6;
+}
+.opacityPortrait:hover{
+  opacity: 1;
+}
+.imagePortrait {
+
+}
+.overlay {
+  position: relative;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.columnImagePortrait:hover .overlay {
+  opacity: 1;
+}
+.grey{
+  background-color: rgba(0, 0, 0, 0.9);
 }
