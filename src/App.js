@@ -7,17 +7,17 @@ import blash from './assets/brashes.jpg'
 import CollectionDisplay from './Components/CollectionDisplay'
 function App() {
   return (
-    <div class="container appHolder">
+    <div className="container appHolder">
       <section id="home">
-        <div class="hero is-info is-fullheight" 
+        <div className="hero is-info is-fullheight" 
             style={{backgroundImage: `url(${blash})`, 
             backgroundSize:'cover'}}>
-          <div class="hero-body">
-            <div class="container has-text-centered">
+          <div className="hero-body">
+            <div className="container has-text-centered">
               <ul>
-                <li class="button is-text navBarModifications "><a className="white" href="#whoami">Who am i</a></li>
-                <li class="button is-text navBarModifications"><a className="white" href="#collection">Collection</a></li>
-                <li class="button is-text navBarModifications"><a className="white" href="#contact">Contact me</a> </li>      
+                <li className="button is-text navBarModifications "><a className="white" href="#whoami">Who am i</a></li>
+                <li className="button is-text navBarModifications"><a className="white" href="#collection">Collection</a></li>
+                <li className="button is-text navBarModifications"><a className="white" href="#contact">Contact me</a> </li>      
               </ul>
             </div>
           </div>   
@@ -30,11 +30,9 @@ function App() {
       </section>
       <br/>
       <section id="collection">
-        <Collection/>
-      </section>
-      <section>
         <CollectionDisplay/>
       </section>
+      <br/>
       <section id="contact">
         <ContactMe/>
       </section>

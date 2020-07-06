@@ -8,7 +8,7 @@
 }
 
 .whiteBG{
-  background-color: white !important;
+  background-color: rgb(255, 255, 255) !important;
 }
 
 .black{
@@ -63,16 +63,27 @@ p#programerSub{
   color: black !important;
 }
 .image1{
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-bottom: 2%;
   text-align: center !important;
+  border-top-left-radius: 1%;
+  border-top-right-radius:1%;
+  -webkit-box-shadow: -1px 0px 20px -2px rgba(211,43,230,0.89);
+  -moz-box-shadow: -1px 0px 20px -2px rgba(211,43,230,0.89);
+  box-shadow: -1px 0px 20px -2px rgba(211,43,230,0.89);
 }
 .imageDisplay{
 
 }
+.radius{
+  border-top-left-radius: 1% !important;
+  border-top-right-radius:1%;
+}
 .favoriteCard{
-  background-color: rgba(3, 3, 3, 0.9) !important;
+  background-color: rgb(51, 50, 50) !important;
+  color: rgb(255, 251, 251) !important;
+  padding: 0rem;
+  -webkit-box-shadow: -1px 0px 20px -2px rgba(211,43,230,0.89);
+  -moz-box-shadow: -1px 0px 20px -2px rgba(211,43,230,0.89);
+  box-shadow: -1px 0px 20px -2px rgba(211,43,230,0.89);
 }
 .level-item{
   color: aliceblue !important;
@@ -81,7 +92,7 @@ p#programerSub{
   text-align: center !important;
 }
 .opacityPortrait{
-  opacity: 0.6;
+  opacity: 0.8;
 }
 .opacityPortrait:hover{
   opacity: 1;
@@ -108,4 +119,14 @@ p#programerSub{
 }
 .grey{
   background-color: rgba(0, 0, 0, 0.9);
+}
+.margin{
+  margin:1% !important;
+}
+.BG{
+  background-image: url('./assets/roseBG.jpg');
+  background-size: cover;
+}
+.red{
+  color: red;
 }
