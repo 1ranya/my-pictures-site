@@ -37,7 +37,7 @@ class CollectionDisplay extends Component {
 
     render() {
       const {url, price} = this.state
-      console.log("url", url)
+      console.log("url3", url)
       let portraits=[]; let partie2=[]; let partie3=[]
       for (let i in url){
         if(i<3)
