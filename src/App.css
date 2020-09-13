@@ -1,98 +1,97 @@
-
-.appHolder{
-  font-family: 'Roboto' !important;
+.appHolder {
+  font-family: "Roboto" !important;
 }
 
-.white{
+.white {
   color: white;
 }
 
-.whiteBG{
+.whiteBG {
   background-color: rgb(255, 255, 255) !important;
 }
 
-.black{
+.black {
   color: black !important;
 }
 
-.bold{
-  font-weight: bold
+.bold {
+  font-weight: bold;
 }
 
-.navBarModifications{
+.navBarModifications {
   font-size: 250% !important;
 }
 
-.navBarModifications:hover{
+.navBarModifications:hover {
   background-color: rgba(99, 1, 58, 0.4) !important;
 }
 
-a.white:hover{
+a.white:hover {
   color: white;
 }
-.painterBG{
-  background-image: url('./assets/painter.jpg');
+.painterBG {
+  background-image: url("./assets/painter.jpg");
   background-size: cover;
   background-color: rgba(0, 1, 58, 0.5);
 }
 
-.programerBG{
-  background-image: url('./assets/programmer.jpg');
+.programerBG {
+  background-image: url("./assets/programmer.jpg");
   background-size: cover;
 }
 
-.painterText{
+.painterText {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-p#programer{
+p#programer {
   font-size: 300% !important;
 }
-p#paintingLover{
+p#paintingLover {
   font-size: 300% !important;
   color: black;
 }
-p#paintingSub{
+p#paintingSub {
   font-size: 200% !important;
 }
-p#programerSub{
+p#programerSub {
   font-size: 200% !important;
 }
 
-.titleWoAmI{
+.titleWoAmI {
   color: black !important;
 }
-.image1{
+.image1 {
   text-align: center !important;
   border-top-left-radius: 1%;
-  border-top-right-radius:1%;
-  -webkit-box-shadow: -1px 0px 20px -2px rgba(211,43,230,0.89);
-  -moz-box-shadow: -1px 0px 20px -2px rgba(211,43,230,0.89);
-  box-shadow: -1px 0px 20px -2px rgba(211,43,230,0.89);
+  border-top-right-radius: 1%;
+  -webkit-box-shadow: -1px 0px 20px -2px rgba(211, 43, 230, 0.89);
+  -moz-box-shadow: -1px 0px 20px -2px rgba(211, 43, 230, 0.89);
+  box-shadow: -1px 0px 20px -2px rgba(211, 43, 230, 0.89);
 }
 
-.radius-top{
+.radius-top {
   border-top-left-radius: 1% !important;
-  border-top-right-radius:1%;
+  border-top-right-radius: 1%;
 }
-.favoriteCard{
+.favoriteCard {
   background-color: rgb(51, 50, 50) !important;
   color: rgb(255, 251, 251) !important;
   padding: 0rem;
-  -webkit-box-shadow: -1px 0px 20px -2px rgba(211,43,230,0.89);
-  -moz-box-shadow: -1px 0px 20px -2px rgba(211,43,230,0.89);
-  box-shadow: -1px 0px 20px -2px rgba(211,43,230,0.89);
+  -webkit-box-shadow: -1px 0px 20px -2px rgba(211, 43, 230, 0.89);
+  -moz-box-shadow: -1px 0px 20px -2px rgba(211, 43, 230, 0.89);
+  box-shadow: -1px 0px 20px -2px rgba(211, 43, 230, 0.89);
 }
-.level-item{
+.level-item {
   color: aliceblue !important;
 }
-.centered{
+.centered {
   text-align: center !important;
 }
-.opacityPortrait{
+.opacityPortrait {
   opacity: 0.8;
 }
-.opacityPortrait:hover{
+.opacityPortrait:hover {
   opacity: 1;
 }
 
@@ -103,8 +102,8 @@ p#programerSub{
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1;
   width: 100%;
-  transition: .5s ease;
-  opacity:0;
+  transition: 0.5s ease;
+  opacity: 0;
   color: white;
   font-size: 20px;
   padding: 20px;
@@ -113,113 +112,178 @@ p#programerSub{
 .columnImagePortrait:hover .overlay {
   opacity: 1;
 }
-.grey{
+.grey {
   background-color: rgba(0, 0, 0, 0.9);
 }
-.margin{
-  margin:1% !important;
+.margin {
+  margin: 1% !important;
 }
-.BG{
-  background-image: url('./assets/roseBG.jpg');
+.BG {
+  background-image: url("./assets/roseBG.jpg");
   background-size: cover;
 }
-.red{
+.red {
   color: red;
 }
 
-.content{
+.content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
   grid-auto-rows: minmax(100px, auto);
 }
 
-.bottomTab{
-  margin: 0 auto 
+.bottomTab {
+  margin: 0 auto;
 }
 
-.card-content{
+.card-content {
   margin: 0 auto;
   border-bottom-left-radius: 5%;
-  border-bottom-right-radius: 5%; 
+  border-bottom-right-radius: 5%;
 }
-.gradientBackground{
-  background: linear-gradient(#A178DF,#f1a9dd);
+.gradientBackground {
+  background: linear-gradient(#a178df, #f1a9dd);
 }
-.circle-small{
+.circle-small {
   width: 140px;
   height: 140px;
-  background: red; 
-  -moz-border-radius: 70px; 
-  -webkit-border-radius: 70px; 
+  background: red;
+  -moz-border-radius: 70px;
+  -webkit-border-radius: 70px;
   border-radius: 70px;
   margin-left: 30%;
   opacity: 0.1;
   margin-top: -30%;
 }
-.circle-medium{
+.circle-medium {
   width: 180px;
   height: 182px;
-  background: red ;
+  background: red;
   border-radius: 153px;
-  opacity: 0.1  ;
-  margin-left: 0em
+  opacity: 0.1;
+  margin-left: 0em;
 }
-.circle-big{
+.circle-big {
   width: 278px;
   height: 278px;
   background: red;
   border-radius: 153px;
   opacity: 0.1;
 }
-.signUpLeft{
-  background-image: url('./assets/africa\ \(3\).png');
+.signUpLeft {
+  background-image: url("./assets/africa\ \(3\).png");
   background-size: cover;
   border-top-left-radius: 2%;
   border-bottom-left-radius: 2%;
 }
-.signUpRight{
-  background-color: rgb(7, 6, 6, 0.2 );
+.signUpRight {
+  background-color: rgb(7, 6, 6, 0.2);
   border-top-right-radius: 2%;
   border-bottom-right-radius: 2%;
 }
-.labelRegistration{ 
-  font-family: 'Nanum Myeongjo', serif !important ;
+.labelRegistration {
+  font-family: "Nanum Myeongjo", serif !important ;
   color: rgb(252, 239, 239) !important;
-  font-family: 'Baloo 2', cursive !important;
+  font-family: "Baloo 2", cursive !important;
 }
-.hero-body{
+.hero-body {
   margin-left: 15%;
   margin-right: 15%;
 }
-.titleRegistration{
-  font-family: 'Baloo 2', cursive;
+.titleRegistration {
+  font-family: "Baloo 2", cursive;
 }
-.inputCostum{
+.inputCostum {
   opacity: 0.2;
 }
 .inputCostum:hover {
-  opacity: 1.0;
+  opacity: 1;
   background-color: rgb(233, 214, 214);
-  color: rgb(146, 28, 146)
+  color: rgb(146, 28, 146);
 }
-.bottomCostum:hover{
+.bottomCostum:hover {
   transition: background-color 1s;
   background-color: rgb(105, 1, 83) !important;
 }
-.bottomCostum{
+.bottomCostum {
   background-color: rgb(173, 34, 139) !important;
-  font-family: 'Baloo 2', cursive !important;
+  font-family: "Baloo 2", cursive !important;
 }
-.bottomCostumCancel{
+.bottomCostumCancel {
   background-color: rgb(238, 181, 224) !important;
-  font-family: 'Baloo 2', cursive !important;
+  font-family: "Baloo 2", cursive !important;
 }
-.bottomCostumCancel:hover{
+.bottomCostumCancel:hover {
   transition: background-color 1s;
   background-color: rgb(252, 227, 246) !important;
 }
-.checkboxCostum{
+.checkboxCostum {
   color: rgb(248, 247, 248) !important;
   background-color: rgb(173, 34, 139) !important;
+}
+.SVG {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+  padding-bottom: 80%;
+  margin-top: -20%;
+}
+.SVG-container {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#leftHand {
+  animation: Hand 0.5s ease-in-out infinite alternate;
+}
+#leftLeef {
+  animation: Leef 2s ease-in-out infinite;
+}
+#Flower {
+  animation: flower 2s ease-in-out infinite;
+}
+#rightLeef {
+  animation: Leef2 2s ease-in-out infinite;
+}
+@keyframes Hand {
+  from {
+    transform: rotateX(0deg);
+    transform-origin: bottom;
+    transform-box: fill-box;
+  }
+  to {
+    transform: rotateX(50deg);
+    /* transform: translate(-50px, -20px); */
+    transform: translateY(-10px);
+  }
+}
+@keyframes Leef {
+  from {
+    transform: rotateY(0deg);
+  }
+  20% {
+    transform: rotateY(20deg);
+  }
+}
+@keyframes flower {
+  from {
+    transform: rotateX(0deg);
+  }
+  20% {
+    transform: rotateY(20deg);
+  }
+}
+@keyframes Leef2 {
+  from {
+    transform: rotateX(0deg);
+  }
+  20% {
+    transform: rotateY(10deg);
+  }
 }
